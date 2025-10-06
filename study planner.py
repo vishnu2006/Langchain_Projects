@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import ChatPromptTemplate
 
 # Set API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBnFn9dnDyLBEH2kO6ObDWne0-QD5MQsbA"   # replace with your key safely
+os.environ["GOOGLE_API_KEY"] = ""   # replace with your key safely
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.4)

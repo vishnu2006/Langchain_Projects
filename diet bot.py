@@ -4,7 +4,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 
 # Set API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBnFn9dnDyLBEH2kO6ObDWne0-QD5MQsbA"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Initialize Gemini LLM
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.3)
